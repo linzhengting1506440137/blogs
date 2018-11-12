@@ -18,3 +18,12 @@ header { position: fixed; top: 0; left: 0; z-index: 10; margin: 0; width: 100%; 
 .top-nav ul li a { color: #FFF }
 .top-nav ul li a:hover { color: #ccc }
 .top-nav ul li.selected a, .top-nav ul li a#selected { color: #09b1b9; }
+.about p { }
+.weixin { width: 100%; text-align: center; }
+.weixin img { width: 80%; margin: 40px auto 10px }
+.main-content { background: #0BF32A; margin-top: 48px; margin-left: 180px; }
+.welcome { border-bottom: 1px solid #B60B0B; background: url(../images/zhuye.png) no-repeat left 20px center #fff; line-height: 42px; padding-left: 40px; text-overflow: ellipsis; white-space: nowrap; overflow: hidden; }
+.picbox { border: 1px solid #260FA7; margin: 20px; background: #fff; overflow: hidden; }
+.pictitle { background: #F8F8F8; height: 40px; line-height: 40px; text-align: center; font-size: 16px; border-bottom: 1px solid #E1E1E1; }
+.pictitle a { color: #666; }
+.pictitle a:hover { color: #000 }
