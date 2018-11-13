@@ -34,3 +34,19 @@ header { position: fixed; top: 0; left: 0; z-index: 10; margin: 0; width: 100%; 
 .pictitle { background: #F8F8F8; height: 40px; line-height: 40px; text-align: center; font-size: 16px; border-bottom: 1px solid #E1E1E1; }
 .pictitle a { color: #EB0CC5; }
 .pictitle a:hover { color: #000 }
+/*gundong*/
+.Box_con { position: relative; margin: 20px 60px; }
+.Box_con .btnl { position: absolute; }
+.Box_con .btn { display: block; width: 65px; height: 65px; position: absolute; top: 40px; cursor: pointer; }
+.Box_con .btnl { background: url(../images/cp3.png) no-repeat center; left: -60px; }
+.Box_con .btnl:hover { background: url(../images/cp4.png) no-repeat center; }
+.Box_con .btnr { background: url(../images/cp1.png) no-repeat center; right: -60px; }
+.Box_con .btnr:hover { background: url(../images/cp2.png) no-repeat center; }
+.Box_con .conbox { position: relative; overflow: hidden; }
+/*newsbox*/
+.newsbox { margin: 20px 10px }
+.newsbox section { width: 33.3%; float: left; margin-bottom: 20px }
+.newsbox .news { background: #fff; border: 1px solid #E1E1E1; margin: 0 10px }
+.newstitle { line-height: 40px; font-size: 15px; border-bottom: 1px solid #E1E1E1; background: #F8F8F8 url(../images/newslist.png) no-repeat left 14px center; padding: 0 20px 0 46px; font-weight: normal }
+.newstitle span { float: right; font-size: 14px }
+.newstitle span a { color: #666 }
