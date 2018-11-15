@@ -22,3 +22,17 @@
 .downlink { overflow: hidden; margin: 20px 0; }
 .downbtn { background: #1BA1E2; border-radius: 2px; color: #FFFFFF; font-size: 14px; padding: 8px 30px; line-height: 35px; }
 .share { margin: 20px; }
+.nextinfo { margin: 20px 0 }
+.nextinfo p { padding: 4px 20px; }
+.nextinfo a:hover { color: #09B1B9; text-decoration: underline }
+.viewbox { border: 1px solid #E1E1E1; margin: 20px; background: #FFF; }
+.viewbox ul { padding: 10px; overflow: hidden }
+.viewbox ul li { width: 25%; float: left; overflow: hidden }
+.viewbox ul li a { margin: 0 8px; display: block }
+.viewbox ul li i { overflow: hidden; display: block }
+.viewbox ul li img { width: 100% }
+.viewbox ul li p { line-height: 18px; font-size: 14px; color: #666; margin: 10px 0 }
+.viewbox ul li:hover p { color: #09B1B9; }
+.viewbox ul li span { color: #999; font-size: 12px; line-height: 20px; }
+.pinlun { border: 1px solid #E1E1E1; margin: 20px; background: #FFF; }
+.gbok { padding: 20px }
