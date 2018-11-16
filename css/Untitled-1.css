@@ -36,6 +36,7 @@
 .viewbox ul li span { color: #999; font-size: 12px; line-height: 20px; }
 .pinlun { border: 1px solid #E1E1E1; margin: 20px; background: #FFF; }
 .gbok { padding: 20px }
+/*media*/
 #mnav { }
 #mnav a { color: #FFF }
 #mnavh { display: none; width: 30px; height: 40px; float: right; text-align: center; padding: 0 5px }
@@ -48,3 +49,19 @@
 .open .navicon:after { margin-top: 0; -webkit-transform: rotate(-45deg); transform: rotate(-45deg); }
 .open .navicon:before, .open .navicon:after { content: ''; display: block; width: 30px; height: 5px; position: absolute; background: #fff; }
 #mside { display: none }
+@media screen and (min-width: 960px) and (max-width: 1023px) {
+    .top-nav { float: right; margin-left: 0 }
+    .top-nav ul li { padding-right: 23px; }
+    .newsbox .news ul li span { display: none }
+    .newsbox .news { margin: 0 5px 0 0 }
+    .picbox { margin: 10px }
+    .blogtext { -webkit-line-clamp: 2; }
+    .bloglist li { margin-bottom: 10px }
+    .rside .news ul li span { display: none }
+    .bloglist { margin: 10px; }
+    .rside .news { margin: 10px 10px 10px 0; }
+    .links { margin: 0 10px 10px 10px; }
+    .contentbox { margin: 10px }
+    .viewbox { margin: 10px }
+    .pinlun { margin: 10px }
+}
