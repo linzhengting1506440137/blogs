@@ -65,3 +65,19 @@
     .viewbox { margin: 10px }
     .pinlun { margin: 10px }
 }
+@media screen and (min-width: 768px) and (max-width: 959px) {
+    .top-nav { position: fixed; right: 0; float: right; margin-left: 0; background: #323841; width: 200px }
+    .top-nav ul li { padding-right: 0 }
+    #mnavh { display: block; }
+    #nav { display: none; padding-left: 10px; border-left: #09b1b9 10px solid; }
+    .search { display: none }
+    .rside { display: none }
+    .blogbox { width: 100% }
+    .contentbox, .viewbox, .pinlun, .picbox { margin: 10px }
+    .newsbox { margin: 0; padding: 0 10px; }
+    .bloginfo { margin-bottom: 20px }
+    .newsbox section { width: 50% }
+    .links { margin: 0 10px 10px 10px }
+    .newsbox .news { margin: 0 }
+    }
+     @media only screen and (max-width: 767px) {
